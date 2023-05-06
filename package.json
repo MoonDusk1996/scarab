@@ -1,17 +1,22 @@
 {
-  "name": "crypto",
+  "name": "scarab",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a CLI application to encrypt and decrypt files",
+  "main": "scarab.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dusk",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonDusk1996/scarab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MoonDusk1996/scarab/issues"
+  },
+  "homepage": "https://github.com/MoonDusk1996/scarab#readme"
 }
