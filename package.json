@@ -1,16 +1,17 @@
 {
   "name": "scarab",
   "version": "1.0.0",
-  "description": "a CLI application to encrypt and decrypt files",
+  "description": "A CLI to encrypt and decrypt files",
   "main": "scarab.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
-  },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "security",
+    "encrypt",
+    "decrypt"
+  ],
   "author": "Dusk",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoonDusk1996/scarab.git"
