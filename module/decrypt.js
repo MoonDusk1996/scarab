@@ -43,7 +43,9 @@ export default async function decrypt() {
 
   //decrypt logic
   async function decrypt() {
-    const file = await askQuestion("Enter the file path with the .scarab extension: ");
+    const file = await askQuestion(
+      "Enter the absolute file path with the .scarab extension: "
+    );
     const password = await askQuestion("Enter a password: ");
 
     const fileName = file.match(/\/([^/]+)$/)[1];

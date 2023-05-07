@@ -43,7 +43,9 @@ export default async function encrypt() {
 
   //encrypt logic
   async function encrypt() {
-    const file = await askQuestion("Enter the path of the file to be encrypted: ");
+    const file = await askQuestion(
+      "Enter the absolute path of the file to be encrypted: "
+    );
     const password = await askQuestion("Enter a password: ");
 
     const fileName = file.match(/\/([^/]+)$/)[1];
