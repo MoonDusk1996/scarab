@@ -20,6 +20,7 @@ export default async function decrypt() {
   decrypted = Buffer.concat([decrypted, decipher.final()]);
 
   //write decrypted file
+  fs.mkdirSync("./decrypted", { recursive: true });
   fs.writeFileSync(`decrypted/${newName}`, decrypted);
   console.log(`\nThe file "${fileName}" was successfully decrypted`);
   rl.close();

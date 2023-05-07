@@ -19,7 +19,8 @@ export default async function encrypt() {
   encrypted = Buffer.concat([encrypted, cipher.final()]);
 
   //write crypted file
-  fs.writeFileSync(`./crypted/${fileName}.scarab`, encrypted);
+  fs.mkdirSync("./encrypted", { recursive: true });
+  fs.writeFileSync(`./encrypted/${fileName}.scarab`, encrypted);
   console.log(`\nThe file "${fileName}" was successfully encrypted`);
   rl.close();
 }
