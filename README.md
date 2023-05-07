@@ -2,6 +2,10 @@
 
 <img src="https://cdn.discordapp.com/attachments/401270585306382337/1104605824548085831/Dusk_scarab_tech_icon_ascii_2f47db53-ab33-47cc-8456-19672898e3fe.png" alt="AI Bot" width="100"/>
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/MoonDusk1996/scarab/blob/main/LICENSE)
+![GitHub issues](https://img.shields.io/github/issues/moondusk1996/scarab)
+
+
 </div>
 
 ## 📝About
