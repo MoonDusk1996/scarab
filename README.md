@@ -30,13 +30,13 @@ Go to the scarab directory
   cd scarab
 ```
 
-encrypt a file
+Encrypt a file
 
 ```bash
   node scarab encrypt
 ```
 
-decrypt a file
+Decrypt a file
 
 ```bash
    node scarab decrypt
