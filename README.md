@@ -5,12 +5,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/MoonDusk1996/scarab/blob/main/LICENSE)
 ![GitHub issues](https://img.shields.io/github/issues/moondusk1996/scarab)
 
-
 </div>
 
 ## 📝About
 
-Scarab is a command line application for linux systems written in javascript to encrypt and decrypt files in a totally simple, fast and free way.
+Scarab is a command line application written in javascript to encrypt and decrypt files in a totally simple, fast and free way.
 
 ## ️📋Requirements
 
