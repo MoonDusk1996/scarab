@@ -8,7 +8,7 @@ export default async function decrypt() {
 
   const file = await askQuestion("Enter the absolute file path with the .scarab extension: ");
   const password = await askQuestion("Enter a password: ");
-  const fileName = file.match(/\/([^/]+)$/)[1];
+  const fileName = file.match(/[\/\\]([^\/\\]+)$/)[1];
   const newName = fileName.substring(0, fileName.lastIndexOf("."));
 
   const hash = crypto.createHash("sha256").update(password).digest("hex");

@@ -8,7 +8,7 @@ export default async function encrypt() {
 
   const file = await askQuestion("Enter the absolute path of the file to be encrypted: ");
   const password = await askQuestion("Enter a password: ");
-  const fileName = file.match(/\/([^/]+)$/)[1];
+  const fileName = file.match(/[\/\\]([^\/\\]+)$/)[1];
 
   const hash = crypto.createHash("sha256").update(password).digest("hex");
   const iv = hash.slice(0, 16);
